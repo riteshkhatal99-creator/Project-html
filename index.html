@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="tracker">
+            <h1>Habit Tracker</h1>
+
+            <div class="top-buttons">
+                <div class="habit-filters">
+                    <button type="button" class="button">Gym</button>
+                    <button type="button" class="button">Food</button>
+                </div>
+                <button type="button" class="button add-button">+ Add Habit</button>
+            </div>
+
+            <div class="month-row">
+                <div class="month-label">January 2026 <span aria-hidden="true">▾</span></div>
+            </div>
+
+            <div class="calendar" aria-label="January 2026 calendar">
+                <div class="weekday">Mon</div>
+                <div class="weekday">Tue</div>
+                <div class="weekday">Wed</div>
+                <div class="weekday">Thu</div>
+                <div class="weekday">Fri</div>
+                <div class="weekday">Sat</div>
+                <div class="weekday">Sun</div>
+
+                <div class="day empty"></div>
+                <div class="day empty"></div>
+                <div class="day empty"></div>
+                <div class="day">1</div>
+                <div class="day">2</div>
+                <div class="day">3</div>
+                <div class="day">4</div>
+
+                <div class="day completed">5</div>
+                <div class="day completed">6</div>
+                <div class="day">7</div>
+                <div class="day">8</div>
+                <div class="day completed">9</div>
+                <div class="day">10</div>
+                <div class="day">11</div>
+
+                <div class="day">12</div>
+                <div class="day">13</div>
+                <div class="day">14</div>
+                <div class="day">15</div>
+                <div class="day">16</div>
+                <div class="day">17</div>
+                <div class="day">18</div>
+
+                <div class="day">19</div>
+                <div class="day">20</div>
+                <div class="day">21</div>
+                <div class="day">22</div>
+                <div class="day">23</div>
+                <div class="day">24</div>
+                <div class="day">25</div>
+
+                <div class="day">26</div>
+                <div class="day">27</div>
+                <div class="day">28</div>
+                <div class="day">29</div>
+                <div class="day">30</div>
+                <div class="day">31</div>
+                <div class="day empty"></div>
+            </div>
+        </section>
+
+        <aside class="today-panel">
+            <h2>Today</h2>
+            <p class="day-count">Day 6 of 30</p>
+
+            <h3>Today's Habits (0/2)</h3>
+
+            <form class="habit-form">
+                <label class="habit-item">
+                    <input type="checkbox" name="gym">
+                    <span>Gym</span>
+                </label>
+                <label class="habit-item">
+                    <input type="checkbox" name="food">
+                    <span>Food</span>
+                </label>
+
+                <div class="form-buttons">
+                    <button type="button" class="button">Submit</button>
+                    <button type="reset" class="button">Reset</button>
+                </div>
+            </form>
+
+            <p class="reminder">Complete all habits today to fill Day 6.</p>
+        </aside>
+    </main>
+</body>
+</html>
